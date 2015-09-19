@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Data Viz - Chicago Data Learnathon</title>
+
+    <!--
+    including font awesome - it is nifty for adding icons to your webpage
+    see http://fortawesome.github.io/Font-Awesome/icons/
+    -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- 
+    including bootstrap - it is nifty for pre-styled components
+    see http://getbootstrap.com/components/ for components
+    see https://bootswatch.com/ for other bootstrap themes
+    -->
+    <link href="https://bootswatch.com/yeti/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Leaflet stylesheet -->
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
+
+    <!-- 
+    including a custom stylesheet that you can edit - css/custom.css
+    -->
+    <link href="custom.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>Data Viz on the Web</h1>
+            <h4>Chicago Data Learnathon - 9/19/15</h4>
+            <hr/>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-6">
+          <div id="chart-1"></div>
+        </div>
+
+        <div class="col-sm-6">
+          <div id="map"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-12">
+          <div id="chart-2"></div>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+  <script src="dataviz.js"></script>
+
+</html>
