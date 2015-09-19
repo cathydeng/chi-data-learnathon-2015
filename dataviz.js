@@ -403,9 +403,6 @@ $(function () {
         },
         xAxis: {
             categories: ['A', 'B', 'C', 'D', 'E'],
-            title: {
-                text: null
-            }
         },
         yAxis: {
             min: 0,
@@ -431,9 +428,6 @@ $(function () {
         },
         xAxis: {
             categories: ['A', 'B', 'C', 'D', 'E'],
-            title: {
-                text: null
-            }
         },
         yAxis: {
             min: 0,
@@ -452,5 +446,6 @@ $(function () {
 
 
     var map = L.map('map').setView([41.88, -87.65], 12);
+    var layer = new L.StamenTileLayer("toner");
 
 });
